@@ -390,7 +390,7 @@
    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
    in hardware. -->
    <bool name="config_setColorTransformAccelerated">true</bool>
-   
+
     <!-- enable doze powersaving mode -->
     <bool name="config_enableAutoPowerModes">true</bool>
 
@@ -591,4 +591,16 @@
         <item>392.9</item>
     </array>
 
+    <!-- Whether or not smart battery is available on this device -->
+    <!--bool name="config_smart_battery_available">true</bool-->
+	
+    <!-- Smart charge sysfs node and value for suspend/resume charging-->
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/battery_charging_enabled</string>
+    <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
+
+    <!-- Amount of time it takes for the light sensor to warm up in milliseconds.
+         For this time after the screen turns on, the Power Manager
+         will not debounce light sensor readings -->
+    <integer name="config_lightSensorWarmupTime">200</integer>
 </resources>
