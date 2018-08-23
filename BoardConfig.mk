@@ -50,6 +50,9 @@ TARGET_USES_64_BIT_BINDER := true
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := sanders,sanders_retail
 
+#Allow overriding Commands
+BUILD_BROKEN_DUP_RULES := true
+
 # GPS
 TARGET_NO_RPC := true
 USE_DEVICE_SPECIFIC_GPS := true
