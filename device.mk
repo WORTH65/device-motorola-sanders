@@ -400,7 +400,7 @@ PRODUCT_COPY_FILES += \
 # Shims
 PRODUCT_PACKAGES += \
     libqsap_shim \
-    libgpu_mapper_shim 
+    libgpu_mapper_shim
 
 # Thermal
 PRODUCT_PACKAGES += \
