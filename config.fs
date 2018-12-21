@@ -103,6 +103,12 @@ caps: 0
 [AID_VENDOR_MOT_ACCY]
 value: 5000
 
+[vendor/firmware_mnt/image/*]
+mode: 0771
+user: AID_SYSTEM
+group: AID_SYSTEM
+caps: 0
+
 [AID_VENDOR_MOT_PWRIC]
 value: 5001
 
