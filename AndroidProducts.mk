@@ -14,7 +14,7 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/arrow_sanders.mk
+	$(LOCAL_DIR)/revengeos_sanders.mk
 
 COMMON_LUNCH_CHOICES := \
-	arrow_sanders-userdebug
+	revengeos_sanders-userdebug
