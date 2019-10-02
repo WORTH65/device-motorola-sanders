@@ -44,7 +44,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # FINGERPRINT
 BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys
-VENDOR_BUILD_FINGERPRINT := google/walleye/walleye:9/PPP3.180510.008/4811556:user/release-keys
+
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
 # for specific
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
